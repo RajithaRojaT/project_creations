@@ -1,0 +1,32 @@
+Sqlite:
+
+1. sqlite3 your_database_name.db
+
+open sqlite:
+	sqlite3 mydatabase.db
+
+2. CREATE TABLE table_name (
+    column1 datatype,
+    column2 datatype,
+    ...
+);
+
+3. INSERT INTO table_name (column1, column2, ...) VALUES (value1, value2, ...);
+4. SELECT column1, column2, ... FROM table_name WHERE condition;
+5. SELECT * FROM users;
+6. DELETE FROM table_name WHERE condition;
+7. DROP TABLE table_name;
+
+
+For Python:
+
+1.pip install sqlalchemy
+
+
+MongoDB:
+
+1) pip install motor
+2) pip install pymongo
+
+
+

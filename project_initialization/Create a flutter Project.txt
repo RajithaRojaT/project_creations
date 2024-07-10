@@ -1,0 +1,32 @@
+Create a flutter Project:
+
+1. flutter create project_name
+
+structure:
+
+    project_name
+	-assets	
+	-lib
+	   -main.dart
+	   -pages(folder)
+
+	   	-project folders
+
+		(inside each folder - project_name_view.dart, name_controller.dart, name_binding.dart)
+
+	   -services(folder)
+	   -consts(folder)
+		-Appstring.dart
+		-Apiurl.dart
+		-Binding.dart
+		-Appcolor.dart
+
+2. To run: flutter run or f5
+
+3. First line Binding(getx package in yaml): class HomePageBinding extends Bindings{}
+ 	-> inside void func: Get.lazyPut(() => LoginController());
+
+4. First line for view(type st, select stateless widget) 
+
+5. first line for controller : class Homecontroller extends GetxController {}
+

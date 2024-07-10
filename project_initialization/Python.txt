@@ -1,0 +1,40 @@
+Python:
+
+1. Cmd
+	1) mkdir (project Name)
+	2) cd (Project Name)
+	3) git init
+	4) python -m venv venv
+	5) venv\Scripts\activate
+	6) pip install -r requirements.txt
+	7) pip freeze > requirements.txt
+	8) alembic init alembic - (inside app)
+
+2.Create Folder SetUp:
+
+1)
+Project Name/
+│
+├── main.py
+├── tests/
+│   └── test_main.py
+├── README.md
+├── .gitignore
+└── requirements.txt
+
+2)
+project name
+│app
+├── main.py
+│.env
+│.env-sample ----------- (databaseurl in small letter "databaseurl=")
+│config.py
+│database.py
+├── .gitignore
+├── README.md
+ 
+3. FrameWork
+
+	1) pip install fastapi uvicorn 
+
+

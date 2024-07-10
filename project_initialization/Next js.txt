@@ -1,0 +1,19 @@
+Next js
+--------
+
+1. To create a next js project
+	- npx create-next-app@latest
+
+2. To update the npm 
+	- npm install
+	- npm install --leagcy-peer-deps
+
+
+Dashboard GitHub repository:
+
+https://tailadmin.com/blog/free-nextjs-admin-dashboard
+
+
+subject : {
+subject_name: "",
+subject_code:""}

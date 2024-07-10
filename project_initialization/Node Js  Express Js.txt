@@ -1,0 +1,15 @@
+Node Js / Express Js
+
+1. npm init -y
+2. npm install express
+
+structure:
+
+my-node-project
+├── node_modules
+├── public
+├── routes -- Folder
+├── views -- Folder
+├── .gitignore
+├── app.js
+└── package.json

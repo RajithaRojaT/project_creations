@@ -1,0 +1,30 @@
+Create a extension:
+
+1. manifest.json
+2. project_name.html
+3. project_name.css
+4. project_name.js
+5. images - Folder
+	-16image.png
+	-48image.png
+	-128image.png
+
+Inside manifest.json
+
+{
+    "manifest_version": 3,
+    "name": "Snap Notes",    (name for the extension)
+    "version": "1.0",
+    "description": "To take a quick notes",
+    "permissions": [
+        "storage"         (what are the permission needed)
+    ],
+    "action": {
+        "default_popup": "project_name.html",
+        "default_icon": {
+            "16": "images/16image.png",
+            "48": "images/48image.png",
+            "128": "images/128image.png"
+        }
+    }
+}

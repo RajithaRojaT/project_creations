@@ -1,0 +1,16 @@
+Webhook key: payment sucess,payment events, stripe infos 
+stripe api key : sk_test_51P6WSVA29oRIEj3ZsD30UWcqYlcrzPWO80wQkdH2VbH6bWyBJBIavpVu97yKdFQ3U6JcWC5E4yOCOuqZ5mbNr6FE00eWCSj53O
+
+method in stripe: checkout stripe
+
+Run in local:
+stripe listen --forward-to 127.0.0.1:8000/webhook
+stripe listen --forward-to 127.0.0.1:8000/payment/webhook
+
+
+
+
+
+
+   
+

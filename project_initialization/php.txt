@@ -1,0 +1,13 @@
+php:
+
+1. php --version
+
+composer:
+1. composer global require Laravel/installer
+2. composer install
+3. Laravel new project name
+4. php artisan serve
+
+
+
+C:\Program Files\php-8.2.2\php.ini - remove the ; from extension=fileinfo tis line

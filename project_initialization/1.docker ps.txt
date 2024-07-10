@@ -1,0 +1,5 @@
+1.docker ps
+2.docker exec -it saap_backend-saap-1 bash ( or docker exec -it saap_backend-saap-1 /bin/bash)
+3. git pull
+
+4. nano .env
